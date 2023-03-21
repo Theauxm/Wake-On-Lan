@@ -24,6 +24,7 @@ If you'd like to run the file on startup, edit `/etc/rc.local`.
 Append the following to the end of the file:
 
 `python /path/to/server.py`
+
 `exit 0`
 
 Reboot the RPi and the server should be running:
@@ -36,4 +37,5 @@ Reboot the RPi and the server should be running:
 Simply visit http://localhost/wake/desktop
 
 NOTE: Change `localhost` to host computer, and `desktop` to name of section in `config.ini`.
+
 NOTE: You will need to append the port (e.g. `:5000`) to the end of the hostname (in our case `localhost`) if you change the port.
