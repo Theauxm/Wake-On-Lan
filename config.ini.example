@@ -1,0 +1,4 @@
+# Save this file as .server_config.ini in the same directory as wol.py
+
+[desktop]
+mac=00:00:00:00:00:00
